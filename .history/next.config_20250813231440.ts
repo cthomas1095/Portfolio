@@ -4,7 +4,7 @@ import withTM from 'next-transpile-modules';
 const isProd = process.env.NODE_ENV == 'production';
 
 const nextConfig = {
-  basePath: isProd ? '/Portfolio-cthomas' : '', 
+  basePath: isProd ? '/cthomas-portfolio' : '', 
     assetPrefix: isProd ? '/Portfolio-cthomas' : '', 
     images: { unoptimized: true}, 
   transpilePackages: ['three'],
