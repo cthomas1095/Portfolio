@@ -41,7 +41,7 @@ export default function Page() {
               <Gltf castShadow receiveShadow 
               scale={.005} 
               position={[0, -.75, 0]}
-              src="/Portfolio/r2d2.glb" />
+              src="/Portio/r2d2.glb" />
             </Controller>
           </KeyboardControls>
           <RigidBody type="fixed" colliders="trimesh">
@@ -57,7 +57,7 @@ export default function Page() {
             position={[0, 2.85, 0]}
             rotation={[0, -Math.PI / 1, 0]} 
             scale={1.5} 
-            src="/Portfolio/star_destroyer_hallway.glb" />
+            src="/cthomas-portfolio/star_destroyer_hallway.glb" />
           </RigidBody>
         </Physics>
    
