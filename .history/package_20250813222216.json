@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "next build",
-    "deploy": "next build && next export && gh-pages -d out"
+    "deploy": "next build && next export && gh-pages -d out" 
   },
   "dependencies": {
     "@react-three/drei": "^10.5.1",

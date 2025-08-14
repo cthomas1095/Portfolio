@@ -57,7 +57,7 @@ export default function Page() {
             position={[0, 2.85, 0]}
             rotation={[0, -Math.PI / 1, 0]} 
             scale={1.5} 
-            src="/cthomas-portfolio/star_destroyer_hallway.glb" />
+            src="/star_destroyer_hallway.glb" />
           </RigidBody>
         </Physics>
    
